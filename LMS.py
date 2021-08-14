@@ -13,7 +13,7 @@ def showInfo():
 	info.title("Data") 
 	info.geometry("600x600")
 	info.grab_set() 
-	info = """
+	Fact = """
 	[+]The date must be in this format DD-MM-YYYY
  	[+]ID can not be change 
 	
@@ -27,7 +27,7 @@ def showInfo():
 	b2 = Button(info, text = "Exit", 
 				command = info.destroy)  
 	T.tag_configure("left", justify='center')
-	T.insert(END,info)
+	T.insert(END,Fact)
 
 	l.pack() 
 	T.pack() 
